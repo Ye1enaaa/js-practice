@@ -5,8 +5,17 @@
         <link rel="stylesheet" href="">
     </head>
     <body>
-        <h1 id="head">Hello</h1>
-        <button type="button" onclick="changeThis()">Change</button>
+        <h1 id="head">Hello</h1><br>
+        <button type="button" onclick="changeThis()">Change</button><br>
+        <button type="button" onclick="changeDate()">Tap to view Date</button><br>
+        <p id = 'date'></p><br>
+        <form action="" method="post">
+            <input type="number" name="fNum" id="fNum">
+            <input type="number" name="sNum" id="sNum">
+            <button type="button" onclick="addMe()">Add</button><br>
+        </form><br>
+        <p id = 'result'></p>
+
         <script src="index.js" async defer></script>
     </body>
 </html>
