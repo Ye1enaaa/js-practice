@@ -11,11 +11,20 @@
         <p id = 'date'></p><br>
         <form action="" method="post">
             <input type="number" name="fNum" id="fNum">
-            <input type="number" name="sNum" id="sNum">
-            <button type="button" onclick="addMe()">Add</button><br>
+            <input type="number" name="sNum" id="sNum"><br>
+            <button type="button" onclick="addMe()">+</button><br>
+            <button type="button" onclick="subtractMe()">-</button><br>
+            <button type="button" onclick="multiplyMe()">*</button><br>
+            <button type="button" onclick="divideMe()">/</button><br>
         </form><br>
         <p id = 'result'></p>
-
+        <h3>Formulate random number</h3><br>
+        <button onclick="randomNumberGen()">Click me!!</button><br>
+        <p id="randomGen"></p><br>
+        <h4>Are you 18 years old and above?</h4>
+        <button onclick="yes()" value="Yes" id ="yes">Yes</button>
+        <button onclick="no()" value="No" id ="no">No</button>
+        <p id="welcome"></p>
         <script src="index.js" async defer></script>
     </body>
 </html>
